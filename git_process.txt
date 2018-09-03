@@ -1,0 +1,8 @@
+Git / GitHub Process
+
+On the Command Line
+
+1.	git init – this step must be done in the parent directory you with the new dir to be.
+2.	touch file_name.txt – this creates the new file in the new directory.
+3.	git add - this stages the desired directory/file.
+4. 
