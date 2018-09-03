@@ -4,7 +4,16 @@ On the Command Line
 
 1.	git init – this step must be done in the parent directory you with the new dir to be.
 2.	touch file_name.txt – this creates the new file in the new directory.
-3.	git add - this stages the desired directory/file.
+3.	git add . - this 'stages' the desired directory.
 4. 	git commit -m "initial comment"
 5. 	git push - this then sends updated dir/files to GitHub
+
+Amending existing file.
+
+6.	make amendments in file, then save.You will now have a 'dirty head' like this: git:(master) ✗ 
+7. 	git add . - to 'stage' updated dir.
+8.	git commit -m "update comment"
+9.	git push - to send updated dir to GitHub.
+
+
 
