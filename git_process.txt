@@ -3,17 +3,18 @@ Git / GitHub Process
 On the Command Line
 
 1.	git init – this step must be done in the parent directory you with the new dir to be.
-2.	touch file_name.txt – this creates the new file in the new directory.
+2.	touch file_name.txt – this creates the new file in the new directory. Start work on new file.
 3.	git add . - this 'stages' the desired directory.
 4. 	git commit -m "initial comment"
-5. 	git push - this then sends updated dir/files to GitHub
+5. 	go to GitHub, create repo with same/similar dir name, copy URL [SSH]
+6 . 	paste URL into Command Line
 
 Amending existing file.
 
-6.	make amendments in file, then save.You will now have a 'dirty head' like this: git:(master) ✗ 
-7. 	git add . - to 'stage' updated dir.
-8.	git commit -m "update comment"
-9.	git push - to send updated dir to GitHub.
+7.	make amendments in file, then save.You will now have a 'dirty head' like this: git:(master) ✗ 
+8. 	git add . - to 'stage' updated dir.
+9.	git commit -m "update comment" You head will now be 'clean' ie, no 'x'
+10.	git push . - to send updated dir to GitHub.
 
 
 
